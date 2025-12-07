@@ -2,6 +2,9 @@ import requests
 import os
 import base64
 
+def newfunction():
+    print("test")
+
 def call_transcription_service(service_url, audio_file_path):
     """
     Calls the external transcription web service by sending a local audio file.
